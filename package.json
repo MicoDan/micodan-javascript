@@ -18,5 +18,8 @@
   "homepage": "https://github.com/MicoDan/micodan-javascript#readme",
   "dependencies": {
     "express": "^4.18.2"
-  }
+  },
+  "devDependencies": {},
+  "keywords": []
 }
+

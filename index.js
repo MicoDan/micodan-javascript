@@ -23,6 +23,7 @@ const app = express();
     }
     res.send(`The product of numbers is: ${product}`);
 });
+//this means that my app is listening on port 3000
 
 app.listen(3000, () => {
     console.log('calculator on port 3000!');
