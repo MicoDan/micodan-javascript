@@ -5,9 +5,9 @@ const app = express();
 /* i, */app.get('/add', (req, res) => {
     const numbers = req.query.numbers;
     let sum = 0
-    const arr = numbers.split(',')
-    for(i=0; i<arr.length; i++){
-    sum = sum + arr[i]
+    const arr = numbers.split(',').map(Number)
+    for(const numb of arr){
+    sum = sum + num
     }
     res.send(`The sum of numbers is: ${sum}`);
 });
@@ -17,9 +17,9 @@ const app = express();
 /* ii, */ app.get('/multiply', (req, res) => {
     const numbers = req.query.numbers;
     let product = 1
-    const nums = numbers.split(',')
-    for(j=0; j<nums.length; j++){
-        product = product * nums[j]
+    const nums = numbers.split(',').map(Number)
+    for(const num of nums){
+        product = product * num
     }
     res.send(`The product of numbers is: ${product}`);
 });
