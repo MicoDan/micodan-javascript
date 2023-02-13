@@ -1,0 +1,22 @@
+{
+  "name": "micodan-javascript",
+  "version": "1.0.0",
+  "description": "javascript exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MicoDan/micodan-javascript.git"
+  },
+  "author": "dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MicoDan/micodan-javascript/issues"
+  },
+  "homepage": "https://github.com/MicoDan/micodan-javascript#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
